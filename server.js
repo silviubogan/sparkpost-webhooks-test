@@ -1,7 +1,7 @@
 // TODO: Complete the values of the following 3 variables to make the script
 // work.
-// This is the default port to which the server listens to if the PORT
-// environment variable is not set.
+// This is the default port to which the server listens if the PORT environment
+// variable is not set.
 var defaultPort = 3000;
 // These are the user name and password used by the SparkPost request to
 // authenticate to this server. They are set in the webhook settings in the
