@@ -73,6 +73,9 @@ var server = http.createServer(function (req, res) {
         }
 
         send(res, 200);
+        console.log('X-MessageSystems-Batch-ID header: ' +
+                req.headers['x-messagesystems-batch-id']);
+        console.log('The JSON body of the request:');
         console.log(util.inspect(result, {
             colors: true,
             depth: null
